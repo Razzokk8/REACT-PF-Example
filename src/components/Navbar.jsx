@@ -5,22 +5,24 @@ function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-light bg-light">
-  <div className="container">
-  <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png" alt="" width="30" height="24" />
+            <div className="container d-flex justify-content-center">
+        <ul className='list-unstyled'>
+            <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <h2>&lt;Riccardo Limiti &#47;&gt;</h2>
           </a>
+
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item fw-bold" href="#">About</a></li>
+            <li><a class="dropdown-item fw-bold" href="#">Technologies</a></li>
+            <li><a class="dropdown-item fw-bold" href="#">Contact</a></li>
           </ul>
         </li>
-          
+        </ul>
               
           
-  </div>
-</nav>
+        </div>
+        </nav>
         </div>
     )
 }
