@@ -9,7 +9,7 @@ function Navbar() {
         <ul className='list-unstyled'>
             <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <h2>&lt;Riccardo Limiti &#47;&gt;</h2>
+          <h4>&lt;RL &#47;&gt;</h4>
           </a>
 
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
