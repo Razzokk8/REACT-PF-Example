@@ -13,9 +13,9 @@ function Navbar() {
           </a>
 
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item fw-bold" href="#">About</a></li>
-            <li><a className="dropdown-item fw-bold" href="#">Technologies</a></li>
-            <li><a className="dropdown-item fw-bold" href="#">Contact</a></li>
+            <li><a className="dropdown-item fw-bold" href="#about">About</a></li>
+            <li><a className="dropdown-item fw-bold" href="#technologies">Technologies</a></li>
+            <li><a className="dropdown-item fw-bold" href="#contact">Contact</a></li>
           </ul>
         </li>
         </ul>

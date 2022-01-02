@@ -6,9 +6,11 @@ import wall1 from '../assets/Images/wall1.jpeg'
 import wall2 from '../assets/Images/wall2.jpeg'
 import wall3 from '../assets/Images/wall3.jpeg'
 import wall4 from '../assets/Images/wall4.jpeg'
+import wall6 from '../assets/Images/wall6.JPG'
+import wall7 from '../assets/Images/wall7.jpeg'
 
 function Home() {
-    const woolyImages = [ wall1, wall2, wall3, wall4 ];
+    const woolyImages = [ wall1, wall2, wall3, wall4, wall6, wall7];
 
     const randomImage =
     woolyImages[Math.floor(Math.random() * woolyImages.length)];

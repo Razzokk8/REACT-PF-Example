@@ -2,7 +2,7 @@ import React from 'react'
 
 function GetInTouch() {
     return (
-        <div className='container mt-5 mb-5'>
+        <div className='container mt-5 mb-5' id='contact'>
 
             <div className='d-flex justify-content-center align-items-center flex-column'>
                 <h2 className='text-center'>Get in touch</h2>

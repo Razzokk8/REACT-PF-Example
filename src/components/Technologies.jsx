@@ -11,7 +11,7 @@ import nodeLogo from '../assets/Logos/node.png'
 function Tech() {
     return (
 
-        <div className='container d-flex justify-content-evenly align-items-center row row-cols-1 row-cols-md-3 g-3 align-self-center' style={{margin: "auto"}}>
+        <div className='container d-flex justify-content-evenly align-items-center row row-cols-1 row-cols-md-3 g-3 align-self-center' style={{margin: "auto"}} id='technologies'>
     
 
         <div className="card text-primary mb-3 p-3 m-5 col shadow bg-body rounded" style={{maxWidth: "18rem", minWidth: "10rem", height: "300px" }}>
