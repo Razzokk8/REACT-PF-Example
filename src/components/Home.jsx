@@ -1,9 +1,11 @@
 import React from 'react'
+
+import Typewriter from 'typewriter-effect';
+
 import wall1 from '../assets/Images/wall1.jpeg'
 import wall2 from '../assets/Images/wall2.jpeg'
 import wall3 from '../assets/Images/wall3.jpeg'
 import wall4 from '../assets/Images/wall4.jpeg'
-
 
 function Home() {
     const woolyImages = [ wall1, wall2, wall3, wall4 ];
@@ -12,30 +14,29 @@ function Home() {
     woolyImages[Math.floor(Math.random() * woolyImages.length)];
     console.log(randomImage);
 
+    
 
     return (
-        <div className='d-flex justify-content-center shadow-lg bg-body rounded'>
-
-        <div className="card bg-dark text-white border-0">
-        <img src={randomImage} className="card-img" alt="welcomeHome" />
-
+        <div className='d-flex justify-content-center'>
+        <div className="card text-white border-0 shadow-lg">
+        <img src={randomImage} className="img-fluid shadow-lg" alt="welcomeHome" />
         <div className="card-img-overlay container d-flex flex-column justify-content-end">
-
-        <div className='mb-3'>
+        <div>
         <h1 className="card-title">Hi!</h1>
-                <h1 className="card-title">I am a web developer,</h1>
-                        <h1 className="card-title">I build beautiful websites and applications whit: <span>
-                        <h1>
+        <h1 className="card-title">I am a web developer,</h1>
 
-                        </h1>
-                        </span>
-                        </h1>
+            <section className="cd-intro">
+		    <h1 className="cd-headline rotate-1">
+			<span>I create wonderful websites whit: </span> 
+			<span className="cd-words-wrapper text-primary fw-bold">
+				<Typewriter options={{strings: ['HTML and CSS ', 'JavaScript ', 'Bootstrap ', 'Express.js ', 'Node.js ', ''], autoStart: true, loop: true, }} />
+			</span>
+		    </h1>
+	        </section>
+    
         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         <p className="card-text">Last updated 3 mins ago</p>
-
-        
         </div>
-        
         <div className='d-flex justify-content-center'>
         <div className='d-flex justify-content-evenly' style={{minWidth: "250px", maxWidth: "370px"}}>
             <div>
@@ -63,10 +64,8 @@ function Home() {
 
     
 
-  </div>
     </div>
-    
-
+    </div>
 </div>
 </div>
     )
