@@ -21,12 +21,9 @@ function About() {
         Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.</p>
         <p className="card-text">I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.
         I have a strong interest in arts and creativity.</p>   
-{/*         <p className="card-text">
-        Fully trained in  <code className='text-primary fw-bold'> HTML5 </code> | <code className='text-primary fw-bold'> JavaScript </code> | <code className='text-primary fw-bold'> Css </code> | <code className='text-primary fw-bold'> React JS </code> | <code className='text-primary fw-bold'> Node JS </code> | <code className='text-primary fw-bold'> Express </code> | <code className='text-primary fw-bold'> MongoDB </code> .
-        Open to work remote.</p> */}
         <p className="card-text">
         I have now to bring ideas and the future to you.</p> 
-        <p className="card-text"><small className="text-muted">* As example:, this Portfolio page is built with React and Bootstrap technologies together.</small></p>
+        <p className="card-text"><small className="text-muted">* As example, this Portfolio page is realized with React and Bootstrap technologies used together.</small></p>
       </div>
       <a href='#contact'>
       <button type="button" className="btn btn-outline-primary m-3 ms-4">Hire me!</button>

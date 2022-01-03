@@ -16,13 +16,9 @@ function Home() {
     woolyImages[Math.floor(Math.random() * woolyImages.length)];
     console.log(randomImage);
 
-    
-
     return (
         <div className='d-flex justify-content-center'>
         <div className="card text-white border-0 shadow-lg">
-
-        {/* <div style={{ backgroundImage:`url(${ randomImage })`, backgroundSize:"contain" }} className="img-fluid shadow-lg" /> */}
         
         <img src={randomImage} className="img-fluid shadow-lg fondo" alt="welcomeHome" />
 
@@ -38,9 +34,10 @@ function Home() {
 			</span>
 		    </h1>
 	        </section>
-    
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text">Last updated 3 mins ago</p>
+        <p className="card-text">This is an example portfolio Page to show my actual ability to code complete Front-end Projects.</p>
+        <p className="card-text">Last updated:  
+        <span id="last"><b> {document.lastModified} </b></span>
+        </p>
         </div>
         <div className='d-flex justify-content-center mt-2'>
         <div className='d-flex justify-content-evenly' style={{minWidth: "250px", maxWidth: "370px"}}>
@@ -66,9 +63,6 @@ function Home() {
                 </a>
             </div>
         </div>
-
-    
-
     </div>
     </div>
 </div>
