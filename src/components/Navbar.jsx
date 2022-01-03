@@ -9,13 +9,13 @@ function Navbar() {
         <ul className='list-unstyled'>
             <li className="nav-item dropdown ">
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <h4>&lt;RiccardoLimiti &#47;&gt;</h4>
+          <h4>&lt;&#9736;icc&#8704;rd&#8709;&#8515;imi&#9765;i &#47;&gt;</h4>
           </a>
 
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item fw-bold" href="#about">About</a></li>
-            <li><a className="dropdown-item fw-bold" href="#technologies">Technologies</a></li>
-            <li><a className="dropdown-item fw-bold" href="#contact">Contact</a></li>
+          <ul className="dropdown-menu dddown" aria-labelledby="navbarDropdown">
+            <li><a className="dropdown-item fw-bold text-primary" href="#about">About</a></li>
+            <li><a className="dropdown-item fw-bold text-primary" href="#technologies">Technologies</a></li>
+            <li><a className="dropdown-item fw-bold text-primary" href="#contact">Contact</a></li>
           </ul>
         </li>
         </ul>
