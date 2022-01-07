@@ -28,7 +28,7 @@ function Home() {
         <h1 className="card-title">I am a web developer,</h1>
             <section className="cd-intro">
 		    <h1 className="cd-headline rotate-1">
-			<span>I create wonderful websites whit: </span> 
+			<span>I create wonderful websites with: </span> 
 			<span className="cd-words-wrapper text-primary fw-bold">
 				<Typewriter options={{strings: ['HTML and CSS ', 'JavaScript ', 'Bootstrap ', 'Express.js ', 'Node.js ', ''], autoStart: true, loop: true, }} />
 			</span>
