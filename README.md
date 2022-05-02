@@ -5,4 +5,4 @@ New Port-Folio Example with R E A C T
 
 ## https://rlreactportfolio.herokuapp.com
 
-Example of Personal Portfolio realized with REACT, Sass, JS, HTML and Bootstrap.
+Example of simple Personal Portfolio realized with REACT, Sass, JS, HTML and Bootstrap.
