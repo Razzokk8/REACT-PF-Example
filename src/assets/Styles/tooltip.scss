@@ -1,0 +1,110 @@
+#iconS {
+
+    .align-items-center {
+        @media (max-width: 1399.98px) {
+            max-height: 150px;
+        }
+        @media (max-width: 1199.98px) {
+            max-height: 120px;
+        }
+        @media (max-width: 991.98px) {
+            max-height: 100px;
+        }
+        @media (max-width: 767.98px) { 
+            max-height: 100px;
+         }
+        @media (max-width: 575.98px) { 
+            max-height: 70px;
+        }
+        
+    }
+    .logoTech {
+
+        @media (max-width: 1199.98px) {
+            width: 100px;
+        }
+        @media (max-width: 991.98px) {
+            width: 90px;
+        }
+        @media (max-width: 767.98px) { 
+            width: 70px;
+        }
+        @media (max-width: 575.98px) { 
+            width: 50px;
+        }
+    }
+
+    .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    @media (max-width: 575.98px) { 
+        width: 90px;
+    }
+    color: white;
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 7.5px;
+    padding: 10px;
+    }
+  
+    .hover-text:hover .tooltip-text {
+    visibility: visible;
+    }
+  
+    #bottom {
+    top: 100%;
+    left: 8%;
+    @media (max-width: 1199.98px) {
+        left: 0%;
+    }
+    @media (max-width: 991.98px) {
+        left: -6%;
+    }
+    @media (max-width: 767.98px) { 
+        left: -20%;
+     }
+    @media (max-width: 575.98px) { 
+        left: -40%;
+        }
+    } 
+
+    .hover-text {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    text-align: center;
+    }
+
+    img {
+        filter: drop-shadow(2px 4px rgb(0, 0, 0));
+    }
+
+    .shadow-icons:hover {
+        -webkit-animation: scale-down-center 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-down-center 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+@-webkit-keyframes shadow-icons {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+      100% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+    }
+    @keyframes scale-down-center {
+      0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+      100% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+  
+}
+}
