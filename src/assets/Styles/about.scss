@@ -1,0 +1,60 @@
+body {
+    background-color: #333;
+}
+#about {
+
+  .pinello{
+    background-color: #333;
+  }
+  .card-content {
+    background-color: #333;
+    border-radius: 0.375rem;
+  }
+.collection-item{
+  background-color: black;
+  padding-left: 10px !important;
+}
+.cardBlock {
+  margin: auto;
+  max-width: 940px;
+  color: white;
+}
+.cardImage {
+    margin: auto;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    clip-path: polygon(20% 10%, 80% 0%, 100% 40%, 10% 100%);
+    animation: polygons 4s alternate infinite;
+  }
+  
+  @keyframes polygons {
+    25% {
+      clip-path: polygon(20% 0%, 100% 38%, 70% 90%, 0% 100%);
+    }
+    50% {
+      clip-path: polygon(0 46%, 100% 15%, 55% 74%, 0 100%);
+    }
+    75% {
+      clip-path: polygon(100% 38%, 100% 38%, 66% 100%, 0 53%);
+    }
+  }
+}
+
+.avatar-wobble {
+  border-radius: 50px 750px 250px 750px /
+                 750px 250px 750px 250px;
+  animation: wobble 3s ease-in-out alternate infinite;
+}
+
+@keyframes wobble {
+  50% {
+    border-radius: 750px 550px 350px 750px /
+                   350px 750px 550px 450px;
+  }
+  100% {
+    border-radius: 750px 250px 750px 50px /
+                   250px 750px 250px 750px;
+  }
+}

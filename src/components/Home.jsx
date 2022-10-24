@@ -1,45 +1,47 @@
 import React from 'react'
-
 import Typewriter from 'typewriter-effect';
 
-import wall1 from '../assets/Images/wall1.jpeg'
-import wall2 from '../assets/Images/wall2.jpeg'
-import wall3 from '../assets/Images/wall3.jpeg'
-import wall4 from '../assets/Images/wall4.jpeg'
-import wall6 from '../assets/Images/wall6.JPG'
-import wall7 from '../assets/Images/wall7.jpeg'
+import wall1 from '../assets/Images/wall1.jpeg';
+// import wall2 from '../assets/Images/wall2.jpeg';
+import wall3 from '../assets/Images/wall3.jpeg';
+import wall4 from '../assets/Images/wall4.jpeg';
+import wall6 from '../assets/Images/wall6.JPG';
+// import wall7 from '../assets/Images/wall7.jpeg';
+import wall8 from '../assets/Images/wall8.jpeg';
+import wall9 from '../assets/Images/wall9.png';
+
+
 
 function Home() {
-    const woolyImages = [ wall1, wall2, wall3, wall4, wall6, wall7];
+    const woolyImages = [ wall1, wall3, wall4, wall6, wall8, wall9];
 
     const randomImage =
     woolyImages[Math.floor(Math.random() * woolyImages.length)];
     console.log(randomImage);
 
     return (
-        <div className='d-flex justify-content-center'>
-        <div className="card text-white border-0 shadow-lg">
+        <div className='d-flex justify-content-center homey'>
+        <div className="card text-white border-0 mt-0">
         
-        <img src={randomImage} className="img-fluid shadow-lg fondo" alt="welcomeHome" />
+        <img src={randomImage} className="img-fluid fondo" alt="welcomeToMyHome" />
 
-        <div className="card-img-overlay container d-flex flex-column justify-content-end">
-        <div>
-        <h1 className="card-title">Hi!</h1>
-        <h1 className="card-title">I am a web developer,</h1>
-            <section className="cd-intro">
+        <div className="card-img-overlay d-flex flex-column justify-content-end m-0 p-0">
+        <div className='fadedToB'>
+        <h1 className="card-title ms-5">Hi! I am <b>Riccardo Limiti</b></h1>
+        <h1 className="card-title ms-5">I am a web developer, a digital artist and a electronic music producer.</h1>
+            <section className="cd-intro ms-5">
 		    <h1 className="cd-headline rotate-1">
-			<span>I create wonderful websites with: </span> 
+			<span>I create wonderful applications and websites with: </span> 
 			<span className="cd-words-wrapper text-primary fw-bold">
 				<Typewriter options={{strings: ['HTML and CSS ', 'JavaScript ', 'Bootstrap ', 'Express.js ', 'Node.js ', ''], autoStart: true, loop: true, }} />
 			</span>
 		    </h1>
 	        </section>
-        <p className="card-text">This is an example portfolio Page to show my actual ability to code complete Front-end Projects.</p>
-        <p className="card-text">Last updated:  
+        <p className="card-text ms-5">This is my creative portfolio and personal website.</p>
+        <p className="card-text ms-5">&lt;&#7449;&#x4C;&#47;&gt; - 
         <span id="last"><b> {document.lastModified} </b></span>
         </p>
-        </div>
-        <div className='d-flex justify-content-center mt-2'>
+        <div className='d-flex justify-content-center mt-2 mb-3'>
         <div className='d-flex justify-content-evenly' style={{minWidth: "250px", maxWidth: "370px"}}>
             <div>
             <a href='https://www.linkedin.com/in/riccardo-limiti-a81061226/' target='_blank'>
@@ -64,6 +66,8 @@ function Home() {
             </div>
         </div>
     </div>
+        </div>
+ 
     </div>
 </div>
 </div>
