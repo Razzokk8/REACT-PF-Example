@@ -1,7 +1,11 @@
-body {
-    background-color: #333;
-}
 #about {
+
+  span {
+    margin: auto;
+  }
+  .blockquote {
+    border-left-color: #9dc852; //default:
+  }
 
   .pinello{
     background-color: #333;
@@ -25,7 +29,7 @@ body {
     width: 250px;
     height: 250px;
     cursor: pointer;
-    clip-path: polygon(20% 10%, 80% 0%, 100% 40%, 10% 100%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     animation: polygons 4s alternate infinite;
   }
   
@@ -40,21 +44,5 @@ body {
       clip-path: polygon(100% 38%, 100% 38%, 66% 100%, 0 53%);
     }
   }
-}
-
-.avatar-wobble {
-  border-radius: 50px 750px 250px 750px /
-                 750px 250px 750px 250px;
-  animation: wobble 3s ease-in-out alternate infinite;
-}
-
-@keyframes wobble {
-  50% {
-    border-radius: 750px 550px 350px 750px /
-                   350px 750px 550px 450px;
-  }
-  100% {
-    border-radius: 750px 250px 750px 50px /
-                   250px 750px 250px 750px;
-  }
+  
 }

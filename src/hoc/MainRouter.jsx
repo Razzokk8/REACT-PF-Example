@@ -17,8 +17,8 @@ function MainR() {
             <About />
             <Tech />
             <WebProjects />
-            <Design />
-            <Music />
+{/*             <Design />
+            <Music /> */}
             <GetInTouch />
             <Foot />
         </div>
