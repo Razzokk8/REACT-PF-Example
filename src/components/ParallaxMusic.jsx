@@ -1,21 +1,20 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import FolderComponent from './FolderComponent';
+import MusicPlayer from './MusicPlayer';
 
-const Banner = () => (
-
-    <Parallax
+const BannerMusic = () => (
+    <Parallax 
     blur={{ min: -15, max: 15 }}
-    className="bannerWeb" 
-    style={{height:"100vh"}} 
-    bgImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-    bgImageAlt="the cat"
+    className="bannerMusic" 
+    style={{height:"200vh"}} 
+    bgImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" 
+    bgImageAlt="the cat" 
     strength={500}>
 
     <div className='container-fluid d-flex justify-content-center align-items-center flex-column'>
                 <div className="col-md-12 container-fluid mt-3 bannerWebContent">
 			  <div className="row">
-                <h2 className='align-start text-muted mb-4 mt-3 d-flex align-items-center'><i className="medium material-icons me-1">language</i>Web</h2>
+                <h2 className='align-start text-muted mb-4 mt-3 d-flex align-items-center'><i className="medium material-icons me-1">audiotrack</i>Music</h2>
 				<div className="col-md-8 pe-1">
                 <blockquote class="blockquote">
 				<p class="mb-0">
@@ -34,11 +33,10 @@ const Banner = () => (
 
 				<div className="col-md-4">
 
-                <FolderComponent />
- 
+                <MusicPlayer />
                 <blockquote class="blockquote">
                         <p class="mb-0">
-                            Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.
+                           PLAZER HERE Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.
                         </p>
                 </blockquote> 
                 <address className='text-muted'>
@@ -51,12 +49,5 @@ const Banner = () => (
     </Parallax>
 );
 
-// subContainer here
-function ParallaxBanner() {
-    return (
-        <div>
-        <Banner />
-        </div>
-    )
-}
-export default ParallaxBanner
+
+export default BannerMusic

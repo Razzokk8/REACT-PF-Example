@@ -16,11 +16,11 @@ function MainR() {
             <Home />
             <About />
             <Tech />
-            <WebProjects />
+             <WebProjects />
              <Design />
-{/*            <Music /> */}
-            <GetInTouch />
-            <Foot />
+             <Music /> 
+{/*             <GetInTouch />
+            <Foot /> */}
         </div>
     )
 }

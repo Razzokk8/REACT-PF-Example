@@ -45,13 +45,17 @@ function FolderComponent() {
         </a>
 		</div>
 		<div className="page box2">
+        <a href='#'>
 		  <h4>Item 2</h4>
+          </a>
 		</div>
 		<div className="page box3">
+        <a href='#'>
 		  <h4>Item 3</h4>
+          </a>
 		</div> 
 	</div>
-  <h2>Double click over the folder</h2>
+  <h2>Double click the folder</h2>
 </div>
          
     </div>

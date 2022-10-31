@@ -3,6 +3,7 @@
     background-color: black;
     margin: 0 auto;
 
+
     #folderC {
     /*page1 movement*/
 
@@ -179,7 +180,7 @@
      box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
      font-family: helvetica;
      text-align: center;
-     color:#913D88;
+     color:#333;
     }
  
     .page1 {
@@ -187,10 +188,10 @@
     }
  
     h2 {
-   color:#ECECEC;
-   text-align:center;
-   margin-top:0;
-    }
+    color:#ECECEC;
+    text-align:center;
+    margin-top:0;
+        }
  
     .page1 {
      -webkit-animation: page1Movement 1.5s linear;
