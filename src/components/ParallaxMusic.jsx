@@ -6,7 +6,7 @@ const BannerMusic = () => (
     <Parallax 
     blur={{ min: -15, max: 15 }}
     className="bannerMusic" 
-    style={{height:"200vh"}} 
+    // style={{height:"200vh"}} 
     bgImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" 
     bgImageAlt="the cat" 
     strength={500}>
@@ -32,16 +32,15 @@ const BannerMusic = () => (
 				</div>
 
 				<div className="col-md-4">
-
-                <MusicPlayer />
-                <blockquote class="blockquote">
+{/*                 <blockquote class="blockquote">
                         <p class="mb-0">
                            PLAZER HERE Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.
                         </p>
                 </blockquote> 
                 <address className='text-muted'>
                     <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890
-                </address>
+                </address> */}
+                <MusicPlayer />
 				</div>
 			</div>
 		</div>

@@ -8,8 +8,6 @@ function GetInTouch() {
 			  <div className="row">
         <h2 className='align-start text-white mb-4 mt-0 text-muted'>Get in touch</h2>
 				<div className="col-md-8 pe-1">
-        
-
         <blockquote class="blockquote">
 				<p class="mb-0">
 				</p>
@@ -28,12 +26,11 @@ function GetInTouch() {
 				<div className="col-md-4">
         <blockquote class="blockquote">
 				<p class="mb-0">
-					Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.
-				</p>
-			</blockquote> 
-			<address className='text-muted'>
-				 <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890
-			</address>
+        <address className='text-muted'>
+				 <strong>Riccardo Limiti</strong><br /> Mahlowerstr. 9<br /> Berlin, BER 12049<br />Germany
+			  </address>
+        </p>
+			  </blockquote>
 				</div>
 			</div>
 		</div>
