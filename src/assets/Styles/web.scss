@@ -2,6 +2,7 @@
 
     background-color: black;
     margin: 0 auto;
+    min-height: 100vh;
 
 
     #folderC {
@@ -218,7 +219,180 @@
     }
     }
 
+    #webCards {
+        .wrapper {
+            padding: 40px;
+            max-width: 100%;
+            margin: 0 auto;
+          }
+          /* gradient stroke */
+          .card-gradient {
+            background-image: linear-gradient(to bottom, rgb(255, 255, 255), #CFCFCF);
+            padding: 1px;
+            border-radius: 4px;
+            box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
+            transition: box-shadow 300ms linear, background-position 300ms linear;
+            min-width: 250px;
+            width: 100%;
+          }
+          .card-inner {
+            background-color: white;
+            border-radius: 4px;
+          }
+          /* to animate on hover only top of the card */
+          .box-hover {
+            position: relative;
+          }
+          /* to hide border stroke where is folded corner */
+          .box-hover::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -2px;
+            right: -2px;
 
+            z-index: 2;
+            box-sizing: border-box;
+          }
+          
+          .box-header {
+            background-color: #333;
+            font-size: large;
+            line-height: 23px;
+            text-decoration: none;
+            padding: 13px 30px 10px;
+            border-radius: 4px 4px 0 0;
+            z-index: 0;
+            overflow: hidden;
+            position: relative;
+            transition: color 500ms ease;
+          }
+          /* circle on hover */
+          .box-header::before {
+            content: '';
+            display: block;
+            width: 2px;
+            height: 2px;
+            position: absolute;
+            top: 49px;
+            left: 43px;
+            transform: scale(1);
+            transition: 400ms ease-in;
+            background-image: radial-gradient(circle, #0275d8 1px, transparent 1px, transparent 2px);
+            background-position: center;
+          }
+          
+          .box-hover:hover .box-header::before,
+          .box.selected .box-header::before {
+            transform: scale(300);
+          }
+          
+          .box-label {
+            z-index: 1;
+            position: relative;
+            margin-bottom: 0;
+          }
+          
+          .box-hover:hover .box-label,
+          .box.selected .box-label {
+            color: #fff;
+          }
+          /* Checkbox styles */
+          
+          .label {
+            line-height: 20px;
+            font-size: 24px;
+            background-blend-mode: darken;
+            vertical-align: middle;
+          }
+          
+          /* folded corner */
+          .triangle {
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 0 0 0 4px;
+            opacity: 1;
+            background-color: #0275d8;
+          }
+          
+          .triangle::before {
+            content: '';
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 0 0 0 4px;
+            background-image: linear-gradient(55.62deg, #00000000 26.5%, #1460ac00 61%);
+            z-index: 1;
+          }
+          
+          .triangle::after {
+            content: '';
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 0 0 0 4px;
+            background-image: linear-gradient(45deg, rgb(255, 255, 255) 50%, rgba(0, 0, 255, 0) 50%);
+            z-index: 1;
+          }
+          
+          .triangle .shadow {
+            display: block;
+            transform-origin: left top;
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            transform: rotate(-4deg);
+            top: 4px;
+            left: 1px;
+            border-radius: 4px;
+            opacity: 0.32;
+            filter: blur(2px);
+            transition: 300ms ease-in-out;
+          }
+          
+          /**/
+          .box .box-body {
+            padding: 12px 20px 6px;
+          }
+          
+          .box-body .title {
+            font-size: 16px;
+            line-height: 19px;
+            color: #000;
+            opacity: 0.8;
+            margin-bottom: 14px;
+            letter-spacing: 0;
+            font-weight: normal;
+          }
+          
+          .box-body .price {
+            text-align: right;
+            font-size: 24px;
+            line-height: 19px;
+            color: #777;
+            margin-bottom: 10px;
+          }
+          
+          .box {
+            min-width: 300px;
+            max-width: 100%;
+          }
+          .title {
+            text-align: justify;
+            margin-bottom: 10px !important;
+          }
+          .col-4 {
+            height: 100px;
+            margin-bottom: 30px;
+          }
+    }
 
     
 }

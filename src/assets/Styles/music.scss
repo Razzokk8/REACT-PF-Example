@@ -1,42 +1,73 @@
 #music {
     background-color: black;
+    min-height: 100vh;
 
-    #mediaPlayer {
-        
-        #container {
-            width: 600px;
-            margin: 0 auto;
-        
-            .items {
-                border: 2px solid #0275d8;
-                padding: 20px;
-                margin-bottom: 15px;
-                color: white;
-            }
+   #Mcards {
+
+    .cards-list {
+        margin: 0 auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        z-index: 0;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        margin: 30px auto;
+        width: 220px;
+        height: 220px;
+        border-radius: 20px;
+      box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+        cursor: pointer;
+        transition: 0.4s;
+        background-color: black;
+      }
+      
+      .card .card_image {
+        width: inherit;
+        height: inherit;
+        border-radius: 20px;
+      }
+      
+      .card .card_image img {
+        width: inherit;
+        height: inherit;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+      
+      .card .card_title {
+        text-align: center;
+        border-radius: 0px 0px 40px 40px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: -80px;
+        height: 40px;
+      }
+      
+      .card:hover {
+        transform: scale(0.9, 0.9);
+        box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+          -5px -5px 30px 15px rgba(0,0,0,0.22);
+      }
+      
+      .title-white {
+        color: white;
+      }
+      
+      .title-black {
+        color: black;
+      }
+      
+      @media all and (max-width: 500px) {
+        .card-list {
+          /* On small screens, we are no longer using row direction but column */
+          flex-direction: column;
         }
-        
-        @media (min-width:320px) {
-            * {
-                padding: 0px;
-                margin: 0px;
-                box-sizing: border-box;
-                font-family: 'Poppins', sans-serif;
-            }
-        
-            header {
-                padding:20px;
-                input {
-                    width:100%;
-                    
-                }
-            }
-            #container {
-                padding:15px;
-                width:100%;
-                .items {
-                    width:100%;
-                }
-            }
-        }
-    }
+      }      
+   }
 }
