@@ -1,14 +1,13 @@
 import React from 'react';
-import Banner2 from './ParallaxDesign';
-
-
+import Sneakers from './SneakerComponent';
 
 
 function Design() {
     return (
 
         <div id='desigN'>
-        <Banner2 />
+
+        <Sneakers />
          
         </div>
     )

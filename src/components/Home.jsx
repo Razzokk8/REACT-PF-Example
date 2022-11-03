@@ -40,7 +40,7 @@ function Home() {
         <span id="last"><b> {document.lastModified} </b></span>
         </p>
         <div className='d-flex justify-content-center mt-2 mb-3'>
-        <div className='mt-3 d-flex justify-content-between' style={{width: "172px"}}>
+{/*         <div className='mt-3 d-flex justify-content-between' style={{width: "172px"}}>
             <div>
             <a href='https://www.linkedin.com/in/riccardo-limiti-a81061226/' target='_blank'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
@@ -62,7 +62,7 @@ function Home() {
                 </svg>
                 </a>
             </div>
-        </div>
+        </div> */}
     </div>
         </div>
  

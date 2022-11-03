@@ -8,6 +8,7 @@
 }
 .fondo {
     min-height: 640px;
+    height: calc(100vh - 40px);
     width: auto;
     object-fit: cover;
     background-color: #333;

@@ -4,7 +4,12 @@
     margin: 0 auto;
     min-height: 100vh;
 
-
+    .bannerWeb {
+      .material-icons {
+        filter: drop-shadow(2px 4px rgb(0, 0, 0));
+      }
+    }
+    
     #folderC {
     /*page1 movement*/
 
@@ -118,16 +123,16 @@
   
     .background {
      width:400px;
-     height:400px;
-     padding-top:80px;
+     height:220px;
+     padding-top:30px;
      margin: 0 auto;
      margin-top: 5%;
-     background: -webkit-radial-gradient(#333, rgb(72, 72, 72));
+/*      background: -webkit-radial-gradient(#333, rgb(72, 72, 72));
      background: radial-gradient(#333, rgb(72, 72, 72));
-     box-shadow: 0 0 3px 2px rgba(0,0,0,0.4);
+     box-shadow: 0 0 3px 2px rgba(0,0,0,0.4); */
      position: relative;
      border-radius: 10px;
-     
+    //  opacity: 0.9;
     }
  
     .file {
@@ -136,7 +141,7 @@
      background:#1460ac;
      position: absolute;
      left:140px;
-     top:200px;
+     top:60px;
      border-radius: 6px;
      cursor: pointer;	
     }
@@ -172,7 +177,7 @@
     .page {
      width:90px;
      height:100px;
-     background:#D2D7D3;
+     background:whitesmoke;
      position: absolute;
      z-index: 2;
      left:15px;
@@ -181,15 +186,25 @@
      box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
      font-family: helvetica;
      text-align: center;
-     color:#333;
+
+     a {
+      text-decoration: none;
+     }
+     
     }
+    .page:hover {
+      h4 {
+        color: whitesmoke;
+      }
+      background-color: #1460ac;
+     }
  
     .page1 {
      z-index:3;
     }
  
-    h2 {
-    color:#ECECEC;
+    h4 {
+    color:#333;
     text-align:center;
     margin-top:0;
         }
@@ -230,7 +245,7 @@
             background-image: linear-gradient(to bottom, rgb(255, 255, 255), #CFCFCF);
             padding: 1px;
             border-radius: 4px;
-            box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
+            box-shadow: 3px -3px 5px rgba(0,0,0,0.5);
             transition: box-shadow 300ms linear, background-position 300ms linear;
             min-width: 250px;
             width: 100%;
@@ -250,7 +265,6 @@
             position: absolute;
             top: -2px;
             right: -2px;
-
             z-index: 2;
             box-sizing: border-box;
           }
@@ -258,9 +272,9 @@
           .box-header {
             background-color: #333;
             font-size: large;
-            line-height: 23px;
+            line-height: 25px;
             text-decoration: none;
-            padding: 13px 30px 10px;
+            padding: 13px 0px 10px 10px;
             border-radius: 4px 4px 0 0;
             z-index: 0;
             overflow: hidden;
@@ -291,6 +305,7 @@
             z-index: 1;
             position: relative;
             margin-bottom: 0;
+            font-size: medium;
           }
           
           .box-hover:hover .box-label,
@@ -300,8 +315,8 @@
           /* Checkbox styles */
           
           .label {
-            line-height: 20px;
-            font-size: 24px;
+            line-height: 25px;
+            font-size: 22px;
             background-blend-mode: darken;
             vertical-align: middle;
           }
@@ -393,6 +408,5 @@
             margin-bottom: 30px;
           }
     }
-
     
 }

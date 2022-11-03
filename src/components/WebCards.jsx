@@ -22,7 +22,7 @@ function WebCards() {
                   <div className="box-header">
                     <label className="box-label">
                       <span className="label d-flex align-items-center">
-                      <DeveloperModeOutlinedIcon /><span className='text-muted ms-2'/>Web development</span>
+                      <DeveloperModeOutlinedIcon /><span className='text-muted ms-1'/>Web development</span>
                     </label>
                     <div className="triangle"><span className="shadow" /></div>
                   </div>
@@ -41,7 +41,7 @@ function WebCards() {
                   <div className="box-header">
                     <label className="box-label">
                       <span className="label d-flex align-items-center">
-                      <DesignServicesOutlinedIcon /><span className='text-muted ms-2'/>Web design</span>
+                      <DesignServicesOutlinedIcon /><span className='text-muted ms-1'/>Web design</span>
                     </label>
                     <div className="triangle"><span className="shadow" /></div>
                   </div>
@@ -60,7 +60,7 @@ function WebCards() {
                   <div className="box-header">
                     <label className="box-label">
                       <span className="label d-flex align-items-center">
-                      <WebhookOutlinedIcon /><span className='text-muted ms-2'/>Project Development</span>
+                      <WebhookOutlinedIcon /><span className='text-muted ms-1'/>Project Development</span>
                     </label>
                     <div className="triangle"><span className="shadow" /></div>
                   </div>
@@ -79,7 +79,7 @@ function WebCards() {
                   <div className="box-header">
                     <label className="box-label">
                       <span className="label d-flex align-items-center">
-                      <DeveloperBoardOutlinedIcon /><span className='text-muted ms-2'/>Consultations</span>
+                      <DeveloperBoardOutlinedIcon /><span className='text-muted ms-1'/>Consultations</span>
                     </label>
                     <div className="triangle"><span className="shadow" /></div>
                   </div>

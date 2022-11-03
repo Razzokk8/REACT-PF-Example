@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function toggleClass() {
 const b = document.querySelector('.file');
 const box1 = document.querySelector('.box1');
@@ -28,7 +29,6 @@ b.addEventListener('click',()=> {
            box3.classList.remove('page3Q')
        }
 }); 
-
 }
 
 function FolderComponent() {
@@ -36,12 +36,13 @@ function FolderComponent() {
     return (
 
     <div id='folderC' className='d-flex justify-content-center'>
-
-<div className="background">
+    <div className="background">
 	<div className="file" onClick={toggleClass}>
 		<div className="page box1">
         <a href='#'>
-		  <h4>Item 1</h4>
+		  <h4>
+          Item 1
+          </h4>
         </a>
 		</div>
 		<div className="page box2">
@@ -53,12 +54,11 @@ function FolderComponent() {
         <a href='#'>
 		  <h4>Item 3</h4>
           </a>
-		</div> 
-	</div>
-  <h2>Double click the folder</h2>
-</div>
-         
+		</div>
+	</div>   
+    </div>
     </div>
     )
 }
+
 export default FolderComponent

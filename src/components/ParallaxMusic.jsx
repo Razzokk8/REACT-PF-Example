@@ -2,14 +2,17 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import MusicCards from './MusicCards';
 import Player from './Player';
+import bannerMusicPicture from '../assets/Images/darkmodular.jpg';
 
 const BannerMusic = () => (
     <Parallax 
     blur={{ min: -15, max: 15 }}
     className="bannerMusic" 
-    style={{minHeight:"100vh"}} 
-    bgImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" 
+    style={{minHeight:"100vh"}}
+    bgImage={bannerMusicPicture} 
+    // bgImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" 
     bgImageAlt="the cat" 
+    opacity={0.9}
     strength={500}>
 
     <div className='container-fluid d-flex justify-content-center align-items-center flex-column'>
@@ -30,12 +33,18 @@ const BannerMusic = () => (
 				</footer>
 			    </blockquote> 
                 <p className="card-text"><small className="text-muted">* As example, this Portfolio page is realized with React and Bootstrap technologies used together.</small></p>
+                <div className='d-flex justify-content-center mt-5 mb-5'>
+                <Player />
+                </div>
+
 				</div>
+
 				<div className="col-md-4">
                 {/* more content on column here */}
                 <MusicCards />
-                <Player />
+                {/* <Player /> */}
 				</div>
+
 			</div>
 		</div>
     </div>

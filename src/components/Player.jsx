@@ -156,7 +156,7 @@ function Player() {
     
     return (
 
-        <div id='mPlayer' className='d-flex justify-content-center me-1 mb-5'>
+        <div id='mPlayer' className='d-flex w-75 justify-content-center me-1 mb-5'>
 
             <Div>
             <audio src={currentSong} ref={audioPlayer} muted={mute} />
