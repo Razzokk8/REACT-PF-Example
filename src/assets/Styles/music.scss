@@ -77,4 +77,37 @@
         }
       }      
    }
+   // slider carousel Debug
+  .slider-left, .slider-right {
+    visibility:hidden;
+   }
+   .react-3d-carousel .slider-container .slider-content .slider-single.proactive .slider-single-content, .react-3d-carousel .slider-container .slider-content .slider-single.preactive .slider-single-content  {
+    opacity: 0.4;
+   }
+   .containerG {
+    margin: 0 auto;
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."; 
+    width: min-content; 
+    height: auto; 
+
+    .thumb {
+      width:60px;
+      height: 60px;
+    }
+    .thumb:hover {
+      transform: scale(3);
+      transition: transform 2s; /* Animation */ /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+  }
 }

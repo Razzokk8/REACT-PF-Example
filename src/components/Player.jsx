@@ -59,9 +59,7 @@ const PSlider = styled(Slider)(({theme, ...props}) => ({
 // ---------------------------------------------------------------
 
 const playlist = [fade, enough, immortal, playDead, winning];
-
 const listName = ['Riccardo Limiti - OutOfFocus', 'Matrixxman & Riccardo Limiti - Inferno', 'Riccardo Limiti - A. - Jizo', 'Matrixxman & Riccardo Limiti - Speed','Riccardo Limiti - Osc515'];
-
 const rightsList = ['Unreleased 2022 © Riccardo Limiti', 'Spectral 139, September 21, 2018 © Ghostly International', 'Database, March 18, 2020 © ARKITA REC.', 'IMF10 Part1, April 22, 2018 © Index Marcel Fengler', 'Unreleased 2017 © Riccardo Limiti'];
 
 function Player() {
@@ -156,7 +154,7 @@ function Player() {
     
     return (
 
-        <div id='mPlayer' className='d-flex w-75 justify-content-center me-1 mb-5'>
+        <div id='mPlayer' className='d-flex w-75 justify-content-center me-1 ms-1 mb-5'>
 
             <Div>
             <audio src={currentSong} ref={audioPlayer} muted={mute} />

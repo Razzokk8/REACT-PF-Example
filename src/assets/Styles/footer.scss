@@ -3,7 +3,14 @@ footer {
         text-decoration: none;
         color: #0d6efd;
     }
-    a:hover {
+    a:hover, .hover:hover {
         color: #0a58ca;
     }
+    .hover {
+        color:white;
+    }
+    blockquote {
+        border-color:#ff3c5a;
+    }
 }
+

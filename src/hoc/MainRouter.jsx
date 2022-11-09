@@ -20,7 +20,7 @@ function MainR() {
              <Design />
              <Music /> 
              <GetInTouch />
-            <Foot />
+            <Foot /> 
         </div>
     )
 }
