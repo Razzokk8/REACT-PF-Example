@@ -24,12 +24,12 @@ function Navbar() {
       
       <li >
       <a className='d-flex align-items-center' href='#about'>
-      <i className="material-icons me-1">face</i>About me</a>
+      <i className="material-icons me-2">face</i>About me</a>
       </li>
 
       <li >
       <a className='d-flex align-items-center' href='#technologies'>
-      <i className="material-icons me-1">settings</i>Technologies</a></li>
+      <i className="material-icons me-2">settings</i>Technologies</a></li>
       </ul>
     </a>
   </li>
@@ -39,13 +39,13 @@ function Navbar() {
       <ul className="menu-dropdown hide-on-small-only">
         <li>
         <a className='d-flex align-items-center' href='#webProjects'>
-        <i className="material-icons me-1">language</i>Web</a></li>
+        <i className="material-icons me-2">language</i>Web</a></li>
         <li>
         <a className='d-flex align-items-center' href='#desigN'>
-        <i className="material-icons me-1">brush</i>Design</a></li>
+        <i className="material-icons me-2">brush</i>Design</a></li>
         <li>
         <a className='d-flex align-items-center' href='#music'>
-        <i className="material-icons me-1">audiotrack</i>Music</a></li>
+        <i className="material-icons me-2">audiotrack</i>Music</a></li>
       </ul>
     </a>
   </li>
@@ -55,10 +55,10 @@ function Navbar() {
       <ul className="menu-dropdown hide-on-small-only">
         <li>
         <a className='d-flex align-items-center' href='#contact'>
-        <i className="material-icons me-1">mail</i>Get in touch</a></li>
+        <i className="material-icons me-2">mail</i>Get in touch</a></li>
         <li>
         <a className='d-flex align-items-center' href='#footer'>
-        <i className="material-icons me-1">link</i>Links</a></li>
+        <i className="material-icons me-2">link</i>Links</a></li>
       </ul>
     </a>
   </li>

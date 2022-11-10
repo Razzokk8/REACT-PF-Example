@@ -37,7 +37,7 @@ const WSPGallery = ({galleryImages}) => {
   }
 
   return (
-    <div className='mt-5'>
+    <div className='mt-0'>
 
       {openModal && 
         <div className='sliderWrap'>

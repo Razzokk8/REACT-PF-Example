@@ -45,7 +45,7 @@ function Foot() {
             </div>
           </div>
           <div className="footer-copyright">
-            <div className="container-fluid ms-3 me-3">
+            <div className="container-fluid ms-3 me-3 text-white">
             ©
             &nbsp; 
             <span>{today.getFullYear()}</span>

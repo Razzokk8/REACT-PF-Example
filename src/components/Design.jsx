@@ -29,8 +29,7 @@ function Design() {
     return (
 
         <div id='desigN' className="container-fluid d-flex justify-content-center">
-
-        <div className="row mt-3 mb-4 ms-3">
+        <div className="row mt-3 mb-4 ms-0 me-2 container-fluid">
         <h2 className='text-muted text-start'><i className="medium material-icons">brush</i></h2>
 		<div className="col-md-4">
         <blockquote className="blockquote" style={{borderColor:'#00aee0'}}>
@@ -44,6 +43,7 @@ function Design() {
                 I have now to bring ideas and the future to you.</p> 
 				</footer>
 			    </blockquote>
+          <p className="card-text mb-5"><small className="text-muted">*NikeSB Dunk low pro Reptilian placed 2nd to the #createyourowndunk design contest.</small></p>
 		</div>
 
 		<div className="col-md-8 mb-5">

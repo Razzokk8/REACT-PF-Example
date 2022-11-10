@@ -29,7 +29,7 @@ function Home() {
         <div className='fadedToB d-flex'>
 
 		<div class="col-md-4 ms-4 leftC d-flex row justify-content-start mb-5">
-        <a className="weatherwidget-io" href="https://forecast7.com/en/52d5213d40/berlin/" data-label_2="BERLIN" data-font="Roboto" data-theme="dark" data-mode="Current" data-days="3" data-textcolor="White" >BERLIN</a><br/><b className='ps-0 mt-3 text-muted'> {document.lastModified} </b>
+        <a className="weatherwidget-io" href="https://forecast7.com/en/52d5213d40/berlin/" data-label_2="BERLIN" data-font="Roboto" data-theme="blank" data-mode="Current" data-days="3" data-textcolor="White" >BERLIN</a><br/><b className='ps-0 mt-3 text-muted'> {document.lastModified} </b>
 		</div>
 		<div class="col-md-8 ms-2 me-4 rightC d-flex row justify-content-start mb-5">
         <h1 className="card-title mb-0">Hi! I am <b>Riccardo Limiti,</b></h1>
@@ -37,7 +37,7 @@ function Home() {
         </h1>
             <section className="cd-intro m-3 ms-0 me-0">
 		    <h1 className="cd-headline rotate-1">
-			<span className="cd-words-wrapper text-black fw-bold">
+			<span className="cd-words-wrapper text-white fw-bold">
 				<Typewriter options={{strings: ['WEB DEVELOPER ', 'FRONTEND ENGINEER','A PROGRAMMER ', 'DIGITAL CREATIVE ', 'MUSIC PRODUCER ','A DESIGNER ', 'AN ARTIST ', ''], autoStart: true, loop: true, }} />
 			</span>
 		    </h1>

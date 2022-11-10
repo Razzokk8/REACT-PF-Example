@@ -1,44 +1,18 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-
-
-// import MusicCards from './MusicCards';
 import Player from './Player';
 import bannerMusicPicture from '../assets/Images/darkmodular.jpg';
 import { Carousel } from 'rs-3d-react-carousal';
 import database from '../assets/Images/database.jpg';
 import inferno from '../assets/Images/inferno.jpg';
 import speed from '../assets/Images/speed.jpg';
-// import MusicImageGallery from './MusicImageGallery.jsx';
+import MosaicGallery from './MosaicCovers';
 
 let slides = [
     <a href='https://arkita1.bandcamp.com/album/database' target='_blank' rel="noreferrer">
     <img  src={database} alt="database-album-cover" /></a>,
     <a href='https://ghostly.bandcamp.com/track/inferno' target='_blank' rel="noreferrer"><img  src={inferno} alt="inferno-single-cover" /></a>  ,
     <a href='https://indexmarcelfengler.bandcamp.com/track/speed' target='_blank' rel="noreferrer"><img  src={speed} alt="speed-single-cover" /></a> ];
-
-
-/* const galleryImages = [
-        {
-          img: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-        },
-        {
-          img: "https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          img: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          img: "https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          img: "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          img: "https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-]; */
-    
 
 const BannerMusic = () => (
     <Parallax 
@@ -72,32 +46,14 @@ const BannerMusic = () => (
                 <div className='d-flex justify-content-center mt-5 mb-5'>
                 <Player />
                 </div>
-
 				</div>
-
 				<div className="col-md-4 mb-5">
+
+                <MosaicGallery />
                 
                 <Carousel slides={slides} autoplay={true} interval={4000} />
-                {/* more content on column here */}
-                {/* <MusicCards /> */}
-                {/* <Player /> */}
-                {/* <MusicImageGallery galleryImages={galleryImages} /> */}
-                <div className="containerG mt-5">
 
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-                  <img className='thumb' src='https://m.media-amazon.com/images/I/51NX+JhRgoL._UX500_FMwebp_QL85_.jpg'/>
-
-                </div>
 				</div>
-
 			</div>
 		</div>
     </div>

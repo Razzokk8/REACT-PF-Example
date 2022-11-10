@@ -10,7 +10,7 @@ function WebCards() {
     return (
 
         <div id='webCards' className='d-flex justify-content-center align-items-center'>
-         <div className="wrapper d-flex justify-content-center">
+         <div className="wrapper d-flex justify-content-center pt-0">
         <div className="col justify-content-center">
 
 

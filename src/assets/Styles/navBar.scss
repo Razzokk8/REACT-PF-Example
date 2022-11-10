@@ -60,7 +60,7 @@
       border-top: 5px solid #9dc852;
       border-left: ($menu_WIDTH / 2) solid transparent;
       border-right: ($menu_WIDTH / 2) solid transparent;
-      border-bottom: 0 solid black;
+      border-bottom: 0 solid #333;
       position: absolute;
       top: 100%;
       left: 0;
@@ -86,7 +86,7 @@
       height: 0;
       border-left: ($menu_WIDTH / 2) solid transparent;
       border-right: ($menu_WIDTH / 2) solid transparent;
-      border-bottom: 0 solid black;
+      border-bottom: 0 solid #333;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -115,7 +115,7 @@
       position: absolute;
       // background: #ebebeb;
       color: white;
-      background: black;
+      background: #333;
       z-index: 100;
       transition:
         0.5s padding,
@@ -127,7 +127,7 @@
       display: block;
       height: 0;
       // border-top: 5px solid #ebebeb;
-      border-top: 5px solid black;
+      border-top: 5px solid #333;
       border-left: ($menu_WIDTH / 2) solid transparent;
       border-right: ($menu_WIDTH / 2) solid transparent;
       position: absolute;
@@ -139,16 +139,16 @@
     
     .menu:not(:hover) > .menu-dropdown {
       padding: 4px 0;
-      background: black;
+      background: #333;
       z-index: 99;
     }
     
     .menu:not(:hover) > .menu-dropdown:after {
-      border-top-color: black;
+      border-top-color: #333;
     }
     
     .menu:not(:hover) > .menu-title:after {
-      border-bottom-color: black;
+      border-bottom-color: #333;
     }
     
     .menu-dropdown > * {
@@ -166,7 +166,7 @@
     }
     
     .menu-dropdown > *:hover {
-      background: #9999;
+      background: black;
     }
     
     .menu:not(:hover) > .menu-dropdown > * {
