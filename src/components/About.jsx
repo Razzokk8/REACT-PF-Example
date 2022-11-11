@@ -16,7 +16,7 @@ function About() {
         </div>
       <h1>Riccardo Limiti</h1>
       <h5 className='text-muted'>Another digital creative:</h5>
-      <div className='d-flex justify-content-between mt-3 mb-5 ms-2 me-2'>
+      <div className='d-flex justify-content-between mt-3 mb-5 ms-2 me-2 scatola'>
 
       <h5 className='text-primary d-flex align-items-center mb-0 row justify-content-center'>
       <i className="small text-primary material-icons mb-2">language</i>FULL-STACK<br/>DEVELOPER</h5>

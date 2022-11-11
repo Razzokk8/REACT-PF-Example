@@ -34,6 +34,7 @@
     "react-scripts": "^4.0.3",
     "react-simple-parallax": "^0.2.6",
     "react-spring": "^9.5.5",
+    "react-textra": "^0.1.3",
     "rs-3d-react-carousal": "^1.0.3",
     "sass": "^1.44.0",
     "typewriter-effect": "^2.18.2",

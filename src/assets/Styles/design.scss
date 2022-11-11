@@ -1,5 +1,4 @@
 #desigN {
-    
     min-height: 100vh;
     background-color:#333;
 
@@ -9,13 +8,17 @@
 
     #sneaker-component {
 
+        .sfondo {
+            background-image: url('../Images/sndesfondo.jpg');
+            min-height: 853px;
+        }
         h2 {
             font-family: 'Lato' , sans-serif;
             font-weight:300;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
         }
         /*===== RESET =====*/
-        *,
+         *,
         ::before,
         ::after {
         margin: 0;
@@ -28,7 +31,7 @@
         padding: 0;
         box-sizing: border-box;
         }
-
+ 
         /*===== CARD =====*/
        .container {
         margin: auto;
@@ -44,7 +47,8 @@
         height: 350px;
         box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
         border-radius: 0.9rem;
-        background-color: #e33a26;
+        // background-color: #e33a26;
+        background-color: #333;
         }
         @media (max-width: 575.98px) {
             .card {
@@ -69,7 +73,7 @@
         }
         
         .card-blue {
-        background: greenyellow;
+        background: #333;
         }
 
         .product-image {
@@ -87,7 +91,7 @@
 
         .product-info h2 {
         font-size: 1.4rem;
-        line-height: 1.3rem;
+        line-height: 1.5rem;
         font-weight: 750;
         letter-spacing: 0.5px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -96,6 +100,7 @@
         margin: 0.4rem;
         font-size: 0.8rem;
         font-weight: 700;
+        text-shadow: 1px 1px black;
         }
 
 /*         @media screen and (max-width: 800px) {

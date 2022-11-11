@@ -22,7 +22,7 @@ function Navbar() {
       <h4 className="menu-title mb-0 hide-on-small-only">who am I</h4>
       <ul className="menu-dropdown hide-on-small-only">
       
-      <li >
+      <li>
       <a className='d-flex align-items-center' href='#about'>
       <i className="material-icons me-2">face</i>About me</a>
       </li>

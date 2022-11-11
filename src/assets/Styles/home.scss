@@ -1,21 +1,27 @@
 @import url('https://fonts.cdnfonts.com/css/base-02');
 .homey {
     background-color: #333;
+    max-width: 100vw;
 
+    .card-title {
+        filter: drop-shadow(2px 4px #333 );
+    }
+    .text-muted {
+        text-shadow: 1px 1px black;
+    }
     .cd-intro {
         height: 90px;
     }
 
-.fadedToB {
+    .fadedToB {
     background: linear-gradient(#e6646400, rgba(51, 51, 51, 0.65), rgb(51, 51, 51));
     margin: 0 auto;
+    height: 30vh;
     width: 100%;
     
     .cd-words-wrapper {
-
-        font-family: 'Base 02', sans-serif;
-        letter-spacing: 6px;
-        font-size: 4.6rem;
+        letter-spacing: 3px;
+        font-size: 2.6rem;
         filter: drop-shadow(2px 4px black);
     }
     .rightC {
@@ -50,17 +56,26 @@
         }
     }
 }
-.fondo {
+    .fondo {
     min-height: 640px;
     height: calc(100vh - 40px);
     width: auto;
     object-fit: cover;
     background-color: #333;
 }
-#weatherwidget-io-0 {
+    #weatherwidget-io-0 {
     max-width: 154px;
     min-width: 120px;
+    opacity: 0.8;
+    border-radius: 10px;
+
+
+    #openWeather {
+            fill-opacity: 0;
+            display: none; 
+    }
 }
+
 .leftC {
     max-width: 190px;
     min-width: 120px;

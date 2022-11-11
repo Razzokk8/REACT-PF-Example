@@ -1,5 +1,5 @@
 import React from 'react'
-import Typewriter from 'typewriter-effect';
+import Textra from 'react-textra'
 
 import wall1 from '../assets/Images/wall1.jpeg';
 // import wall2 from '../assets/Images/wall2.jpeg';
@@ -28,8 +28,10 @@ function Home() {
 
         <div className='fadedToB d-flex'>
 
-		<div class="col-md-4 ms-4 leftC d-flex row justify-content-start mb-5">
-        <a className="weatherwidget-io" href="https://forecast7.com/en/52d5213d40/berlin/" data-label_2="BERLIN" data-font="Roboto" data-theme="blank" data-mode="Current" data-days="3" data-textcolor="White" >BERLIN</a><br/><b className='ps-0 mt-3 text-muted'> {document.lastModified} </b>
+		<div class="col-md-4 ms-5 me-2 leftC d-flex row justify-content-start mb-5">
+        <a className="weatherwidget-io" href="https://forecast7.com/en/52d5213d40/berlin/" data-label_2="BERLIN" data-font="Roboto" data-theme="blank" data-basecolor="#333" data-mode="Current" data-days="3" data-textcolor="White" >BERLIN</a>
+        <br/>
+        <b className='ps-0 mt-3 text-muted'> {document.lastModified} </b>
 		</div>
 		<div class="col-md-8 ms-2 me-4 rightC d-flex row justify-content-start mb-5">
         <h1 className="card-title mb-0">Hi! I am <b>Riccardo Limiti,</b></h1>
@@ -38,17 +40,22 @@ function Home() {
             <section className="cd-intro m-3 ms-0 me-0">
 		    <h1 className="cd-headline rotate-1">
 			<span className="cd-words-wrapper text-white fw-bold">
-				<Typewriter options={{strings: ['WEB DEVELOPER ', 'FRONTEND ENGINEER','A PROGRAMMER ', 'DIGITAL CREATIVE ', 'MUSIC PRODUCER ','A DESIGNER ', 'AN ARTIST ', ''], autoStart: true, loop: true, }} />
+                <Textra effect='press' data={['WEB DEVELOPER', 'FRONTEND ENGINEER', 'A PROGRAMMER', 'DIGITAL CREATIVE', 'MUSIC PRODUCER', 'A DESIGNER', 'AN ARTIST']} />
 			</span>
 		    </h1>
+
+
 	        </section>
-        <p className="card-text text-muted mt-1">This is my creative portfolio and personal website.</p>
-		</div>
+		    <div className='d-flex align-items-end w-100'>
+            <p className="card-text text-muted"><b>This is my portfolio and personal website.</b></p>
+            </div>
+        </div>
+
         </div>
  
     </div>
 </div>
-</div>
+    </div>
     )
 } 
 
