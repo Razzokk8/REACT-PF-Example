@@ -22,11 +22,6 @@ function DesignComponent() {
             <img className='d-block w-100' src={SD} alt="..." />
           </div>
 
-{/*           <div>
-          <h2  className='pb-3 pt-2 text-primary text-end black rounded-top' style={{height:'59px'}}></h2>
-            <img className='d-block w-100' src={SD2} alt="..." />
-          </div> */}
-
           <div>
           <h2  className='pb-3 pt-2 text-primary text-end black pe-3 rounded-top'>UI UX Prototyping</h2>
             <img className='d-block w-100' src={proto} alt="..." />

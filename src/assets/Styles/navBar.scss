@@ -2,6 +2,11 @@
     background-color: #333;
     min-height: 40px;
     max-width: 100vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s ease;
+    z-index: 1;
 
     .btn-floating {
       right: -0px;
@@ -21,7 +26,7 @@
       width: 600px;
       margin: 0 auto;
       font-family: 'Roboto', sans-serif;
-      color: #555555;
+      color: #333;
     }
     
     a {
@@ -32,15 +37,16 @@
     * {
       box-sizing: border-box;
     }
-    
-    $menu_WIDTH: 150px;
+
+    $menu_WIDTH: 130px;
+
     
     .menu {
       display: block;
       position: relative;
       cursor: pointer;
     }
-    
+
     .menu-title {
       display: block;
       width: $menu_WIDTH;
@@ -48,7 +54,7 @@
       padding: 12px 0 0;
       background: #9dc852;
       text-align: center;
-      color: #333;
+      color: black;
       font-weight: bold;
       text-transform: uppercase;
       transition: 0.3s background-color;
@@ -71,8 +77,8 @@
         0.3s border-top-color;
     }
     
-    .menu-title:hover { background: #83a055; }
-    .menu-title:hover:before { border-top-color: #83a055; }
+    .menu-title:hover { background: #83a055;}
+    .menu-title:hover:before { border-top-color: #83a055;}
     
     .menu:hover > .menu-title:before {
       border-top-width: 0;
@@ -98,6 +104,7 @@
     .menu:hover > .menu-title:after {
       border-bottom-width: 5px;
       transition: 0.2s 0.2s border-bottom-width ease-out;
+      
     }
     
     .menu-title_2nd { background: #00aee0; }
@@ -111,10 +118,9 @@
     .menu-title_3rd:hover:before { border-top-color: #b96666; }
 
     .menu-dropdown {
-      min-width: 100%;
+      width: 130px;
       padding: 15px 0;
       position: absolute;
-      // background: #ebebeb;
       color: white;
       background: #333;
       z-index: 100;
@@ -127,7 +133,6 @@
       content: "";
       display: block;
       height: 0;
-      // border-top: 5px solid #ebebeb;
       border-top: 5px solid #333;
       border-left: ($menu_WIDTH / 2) solid transparent;
       border-right: ($menu_WIDTH / 2) solid transparent;
@@ -155,7 +160,7 @@
     .menu-dropdown > * {
       overflow: hidden;
       height: 30px;
-      padding: 5px 10px;
+      padding: 5px 5px;
       background: rgba(0,0,0,0);
       white-space: nowrap;
       transition: 
@@ -185,11 +190,6 @@
         0.6s visibility;
       z-index: 99;
     }
-    
-    .hList {
-      //overflow: hidden;
-    }
-    
     .hList > * {
       float: left;
     }
@@ -197,5 +197,6 @@
     .hList > * + * {
       margin-left: 0;
     }
-  }  
+  }
+
 }

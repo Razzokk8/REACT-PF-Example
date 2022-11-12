@@ -92,12 +92,16 @@ function About() {
         I have now to bring ideas and the future to you.</p> 
 				</footer>
 			</blockquote> 
-        <p className="card-text"><small className="text-muted">* As example, this Portfolio page is realized with React and Bootstrap technologies used together.</small></p>
 				</div>
 				<div className="col-md-4">
-        <blockquote class="blockquote">
+        <blockquote class="blockquote text-muted">
 				<p class="mb-0">
-					Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.
+        Web Developer, Music Producer, Designer, Cook.</p>
+        <p>Avid learner, always curious, with a solid international background in customer relations and service.</p>
+        <p>
+        I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.</p>
+        <p>
+        I have a strong interest in arts and creativity.
 				</p>
 			</blockquote> 
               </div>

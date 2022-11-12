@@ -34,7 +34,6 @@ const Banner = () => (
                 I have now to bring ideas and the future to you.</p> 
 				</footer>
 			    </blockquote> 
-                <p className="card-text mb-5"><small className="text-muted">*NikeSB Dunk low pro Reptilian placed 2nd to over declared design contest.</small></p>
                 <h3 className="cd-headline rotate-1 mb-5 text-white text-center mt-5 ms-3">
 			<span> Coded with: </span><br/> 
 			<span className="cd-words-wrapper text-primary fw-bold">

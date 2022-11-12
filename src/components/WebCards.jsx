@@ -6,7 +6,7 @@ function WebCards() {
 
         <div id='webCards' className='d-flex justify-content-center align-items-center'>
          <div className="wrapper d-flex justify-content-center pt-0">
-        <div className="col justify-content-center">
+        <div className="col justify-content-center p-5 pt-0">
 
 
 
@@ -28,6 +28,7 @@ function WebCards() {
               </div>
             </div>
         </div>
+        <br />
 
         <div className="col-4 w-100">
             <div className="box card-gradient mb-3">
@@ -47,6 +48,7 @@ function WebCards() {
               </div>
             </div>
         </div>
+        <br />
 
         <div className="col-4 w-100">
             <div className="box card-gradient mb-3">
@@ -66,6 +68,7 @@ function WebCards() {
               </div>
             </div>
         </div>
+        <br />
 
         <div className="col-4 w-100">
             <div className="box card-gradient mb-3">
@@ -85,6 +88,7 @@ function WebCards() {
               </div>
             </div>
         </div>
+        <br />
 
 
 

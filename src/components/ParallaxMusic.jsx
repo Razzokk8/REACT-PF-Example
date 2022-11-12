@@ -42,7 +42,6 @@ const BannerMusic = () => (
                 I have now to bring ideas and the future to you.</p> 
 				</footer>
 			    </blockquote> 
-                <p className="card-text"><small className="text-muted">* As example, this Portfolio page is realized with React and Bootstrap technologies used together.</small></p>
                 <div className='d-flex justify-content-center mt-5 mb-5'>
                 <Player />
                 </div>

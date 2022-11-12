@@ -21,12 +21,12 @@ function GetInTouch() {
         I have now to bring ideas and the future to you.</p> 
 				</footer>
 			</blockquote> 
-        <p className="card-text"><small className="text-muted">* As example, this Portfolio page is realized with React and Bootstrap technologies used together.</small></p>
+        <p className="card-text"><small className="text-muted">* I have now to bring ideas and the future to you.</small></p>
 				</div>
 				<div className="col-md-4">
         <blockquote class="blockquote" style={{borderColor:'#ff3c5a'}}>
 				<p class="mb-0">
-        <address className='text-muted'>
+        <address className='text-muted' style={{textShadow: "1px 1px black"}}>
 				 <strong>Riccardo Limiti</strong><br /> Mahlowerstr. 9<br /> Berlin, BER 12049<br />Germany
 			  </address>
         </p>
