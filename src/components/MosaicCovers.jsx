@@ -74,7 +74,7 @@ function MosaicGallery() {
         </a>
 
         <a>
-        <img className='thumb' src={speed} alt='...'/>
+        <img className='thumb' src={mcv} alt='...'/>
         </a>
 
         <a>
@@ -86,7 +86,7 @@ function MosaicGallery() {
         </a>
 
         <a>
-        <img className='thumb' src={mcv} alt='...'/>
+        <img className='thumb' src={speed} alt='...'/>
         </a>
 
         <a>

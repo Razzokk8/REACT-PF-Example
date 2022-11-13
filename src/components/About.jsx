@@ -83,26 +83,30 @@ function About() {
 				<p class="mb-0">
 				</p>
 				<footer class="blockquote-footer">
-					        <p className="card-text text-white">Web Developer, Music Producer, Designer, Cook and IT specialist based in Berlin, Germany.</p>
+					        <p className="card-text text-white">I am a human born in Milan in 1982, Web Developer, Music Producer, Designer, Cook and IT specialist based in Berlin, Germany.</p>
                   <p className="card-text text-white">
         Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.</p>
         <p className="card-text text-white">I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.
         I have a strong interest in arts and creativity.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.</p>   
-        <p className="card-text text-white">
-        I have now to bring ideas and the future to you.</p> 
 				</footer>
-			</blockquote> 
+			</blockquote>
+      <p className="card-text mb-3"><small className="text-muted">* I have now to bring ideas and the future to you.</small></p> 
 				</div>
 				<div className="col-md-4">
         <blockquote class="blockquote text-muted">
 				<p class="mb-0">
-        Web Developer, Music Producer, Designer, Cook.</p>
-        <p>Avid learner, always curious, with a solid international background in customer relations and service.</p>
+        Languages: 🇮🇹 🇩🇪 🇬🇧
+        </p>
+        <br/>
         <p>
-        I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.</p>
-        <p>
-        I have a strong interest in arts and creativity.
+        📜 Certified full stack web developer from <a href='https://digitalcareerinstitute.org' target='_blank' rel="noreferrer">DCI gGmbh</a> Berlin.
 				</p>
+        <p>
+        📜 Certified Responsive Web Design and JavaScript Algorithms and Data Structures from <a href='https://www.freecodecamp.org/riccardolimiti' target='_blank' rel="noreferrer">FreeCodeCamp.org.</a>
+				</p>
+        <p>
+        📜 Certification of stage and studio sound engineer from <a href='https://www.emitfeltrinelli.it' target='_blank' rel="noreferrer">Emit Feltrinelli</a> (Milano).
+        </p>
 			</blockquote> 
               </div>
             </div>

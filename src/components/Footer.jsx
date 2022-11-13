@@ -32,9 +32,9 @@ function Foot() {
                 </ul>
                 <ul>
                   <li><a href="https://welcometothegrid.bandcamp.com" target='_blank' rel="noreferrer">The grid (Matrixxman)</a></li>
-                  <li><a href="https://arkita1.bandcamp.com" target='_blank' rel="noreferrer">ARKITA REC.</a></li>
                   <li><a href="https://ghostly.com" target='_blank' rel="noreferrer">Ghostly International</a></li>
                   <li><a href="https://indexmarcelfengler.bandcamp.com" target='_blank' rel="noreferrer">Index Marcel Fengler</a></li>
+                  <li><a href="https://arkita1.bandcamp.com" target='_blank' rel="noreferrer">ARKITA REC.</a></li>
                   <li><a href="https://superkillrecords.bandcamp.com" target='_blank' rel="noreferrer">Superkill Records</a></li>
                   <li><a href="https://kriptikarecords.bandcamp.com" target='_blank' rel="noreferrer">Kriptika Records</a></li>
                   <li><a href="https://fytwine.com" target='_blank' rel="noreferrer">Fyt Wine</a></li>
@@ -51,11 +51,13 @@ function Foot() {
             <span>{today.getFullYear()}</span>
             &nbsp; 
             Riccardo Limiti
+            <div className="right d-flex align-items-center" >
+            &lt;&#7449;&#x4C;&#47;&gt;&nbsp;&nbsp;&nbsp;
             <a 
-            className="right" 
             href="#">
               <KeyboardDoubleArrowUpOutlinedIcon className='hover' />
-            </a>
+            </a></div>
+            
             </div>
           </div>
         </footer>
