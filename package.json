@@ -2,8 +2,8 @@
   "name": "reactpf",
   "version": "0.1.0",
   "engines": {
-    "npm": "7.x",
-    "node": "18.x"
+    "npm": "8.x",
+    "node": "16.x"
   },
   "private": true,
   "dependencies": {
@@ -35,7 +35,7 @@
     "react-parallax": "^3.5.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "react-simple-parallax": "^0.2.6",
     "react-spring": "^9.5.5",
     "react-textra": "^0.1.3",
