@@ -13,9 +13,17 @@ function Foot() {
 
               <div className="col l6 s12">
               <blockquote>
-                <h5 className="white-text">Footer Content</h5>
+              <br />
+                <h5 className="white-text">Riccardo Limiti Creative Portfolio website</h5>
                 </blockquote>
-                <p className="grey-text text-muted">You can use rows and columns here to organize your footer content.</p>
+                <p className="grey-text text-muted">
+                <br />
+                I couldn’t believe you spared the time to see me, spend some time with me, in this section you can find some interesting link that are very useful to me.
+                <br />Thank you very much for your visit.
+                <br />Please visit again soon. 
+                </p>
+                <p className="grey-text text-muted">
+                </p>
               </div>
               <div className="col l4 offset-l2 s12 container">
                 <h2 className="white-text text-muted d-flex align-items-center justify-content-center"><i className="medium material-icons">link</i></h2>
@@ -28,7 +36,7 @@ function Foot() {
                   <li><a href="#!" target='_blank' rel="noreferrer">Link 1</a></li>
                   <li><a href="#!" target='_blank' rel="noreferrer">Link 2</a></li>
                   <li><a href="#!" target='_blank' rel="noreferrer">Link 3</a></li>
-                  <li><a href="#!" target='_blank' rel="noreferrer">Link 4</a></li>
+                  <li><a href="https://apart.men" target='_blank' rel="noreferrer">apart.men</a></li>
                 </ul>
                 <ul>
                   <li><a href="https://welcometothegrid.bandcamp.com" target='_blank' rel="noreferrer">The grid (Matrixxman)</a></li>

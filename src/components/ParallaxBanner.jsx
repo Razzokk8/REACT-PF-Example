@@ -26,12 +26,10 @@ const Banner = () => (
 				<p class="mb-0">
 				</p>
 				<footer class="blockquote-footer">
-				<p className="card-text text-white">Web Developer, Music Producer, Designer, Cook and IT specialist based in Berlin, Germany.</p>
-                <p className="card-text text-white">Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.</p>
-                <p className="card-text text-white">I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.
-                I have a strong interest in arts and creativity.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.</p>   
-                <p className="card-text text-white">
-                I have now to bring ideas and the future to you.</p> 
+				<p className="card-text text-white">As a Web Developer, just started my career being part of the front end team of the Apart.men company from Hamburg tidying up the typography and layout of the whole website using Wordpress and Elementor.pro.</p>
+                <p className="card-text text-white">Some other examples of my developer work can be found below by double clicking on the folder and clicking on one of three files you could extract.</p>
+{/*                 <p className="card-text text-white">I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.
+                I have a strong interest in arts and creativity.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.</p>  */}  
 				</footer>
 			    </blockquote> 
                 <h3 className="cd-headline rotate-1 mb-5 text-white text-center mt-5 ms-3">

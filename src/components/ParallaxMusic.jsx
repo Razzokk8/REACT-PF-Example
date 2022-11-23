@@ -30,18 +30,21 @@ const BannerMusic = () => (
 			  <div className="row">
                 <h2 className='align-start text-muted mb-4 mt-3 d-flex align-items-center'><i className="medium material-icons me-1">audiotrack</i></h2>
 				<div className="col-md-8 pe-1">
-                <blockquote class="blockquote" style={{borderColor:'#00aee0'}}>
-				<p class="mb-0">
+                <blockquote className="blockquote" style={{borderColor:'#00aee0'}}>
+				<p className="mb-0">
 				</p>
-				<footer class="blockquote-footer">
-				<p className="card-text text-white">Web Developer, Music Producer, Designer, Cook and IT specialist based in Berlin, Germany.</p>
-                <p className="card-text text-white">Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.</p>
-                <p className="card-text text-white">I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.
-                I have a strong interest in arts and creativity.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.</p>   
-                <p className="card-text text-white">
-                I have now to bring ideas and the future to you.</p> 
+				<footer className="blockquote-footer">
+				<p className="card-text text-white">Music and the desire to compose one of the first strong emotions and sensations that I have felt in my life.
+                <br />
+                Since I was very young I have always been attracted and fascinated by instruments suitable for electronic music and their evolution.
+                <br />
+                By consuming tons of music hardware I've come to be a huge fan of modular synthesis.</p>
+                <p className="card-text text-white">I have been composing techno and dance music for many years, have appeared on several digital compilations, and 12" vinyl dj releases.
+                <br />
+                Press Play on the player and it goes boom boom!</p>
 				</footer>
-			    </blockquote> 
+			    </blockquote>
+                <br /> 
                 <div className='d-flex justify-content-center mt-5 mb-5'>
                 <Player />
                 </div>

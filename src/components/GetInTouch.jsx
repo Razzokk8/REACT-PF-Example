@@ -14,13 +14,19 @@ function GetInTouch() {
 				<footer className="blockquote-footer">
 					        <p className="card-text text-white">Are you interested in working together?</p>
                   <p className="card-text text-white">
-        Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.</p>
-        <p className="card-text text-white">Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.
-        I have a strong interest in arts and creativity.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.</p>   
+                  Do you have questions? You are curious?
+                  <br />
+                  Feel free to drop me a line, if you don't get an answer immediately, it's possible that I'm traveling at supersonic speed in cyberspace.
+                  <br />I will reply as soon as possible. This is a promise.</p>  
+                  <p className="card-text text-white">
+                  If you have a project in mind please try to take into consideration several factors ranging from the type of project (web site or application, etc) the budget available the timeline in which you wish to complete and deploy the project and then tell me something more descriptively about it.
+                  <br />
+                  Below you can find all the channels through which we can get in touch, from my social networks to my personal email.</p>  
         <p className="card-text text-white">
         I would love to hear from you.</p> 
 				</footer>
-			</blockquote> 
+			</blockquote>
+      <br /> 
 				</div>
 				<div className="col-md-4">
         <blockquote className="blockquote" style={{borderColor:'#ff3c5a'}}>

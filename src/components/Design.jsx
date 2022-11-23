@@ -35,12 +35,9 @@ function Design() {
         <blockquote className="blockquote" style={{borderColor:'#00aee0'}}>
 				<p className="mb-0"><br />
 				</p>
-				<footer className="blockquote-footer mb-5">
-				<p className="card-text text-white">Web Developer, Music Producer, Designer, Cook and IT specialist based in Berlin, Germany.</p>
-                <p className="card-text text-white">Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.</p>  
-                <p className="card-text text-white">
-                solid international background in customer relations and service, I have specialized in IT and development in the last years, solid international background in customer relations and service, I have specialized in IT and development in the last years
-                I have now to bring ideas and the future to you.</p> 
+				<footer className="blockquote-footer">
+				<p className="card-text text-white">As a designer I have a foundation of four years of university in Milan, which gave me the basis for managing a project well, I have also participated in other workshops and training experiences.</p>
+        <p className="card-text text-white">I've designed sneaker's, designed and laser cut modular synthesizer cases with internal LEDs, designed flyers and LP covers, managed a light show for one music concert and created web banner ads for another.</p> 
 				</footer>
 			    </blockquote>
           <p className="card-text mb-5"><small className="text-muted">*NikeSB Dunk low pro Reptilian placed 2nd to the #createyourowndunk design contest.</small></p>

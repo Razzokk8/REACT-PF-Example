@@ -22,7 +22,7 @@ function WebCards() {
                     <div className="triangle"><span className="shadow" /></div>
                   </div>
                   <div className="box-body">
-                    <div className="title">Building web sites, desktop and mobile applications, pure coding.</div>
+                    <div className="title">Building web sites, desktop and mobile applications, coding.</div>
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@ function WebCards() {
                     <div className="triangle"><span className="shadow" /></div>
                   </div>
                   <div className="box-body">
-                    <div className="title">Consultations in development, web design and engineering fields.</div>
+                    <div className="title">Consultations in development, web design and engineering.</div>
                   </div>
                 </div>
               </div>

@@ -83,18 +83,25 @@ function About() {
 				<p class="mb-0">
 				</p>
 				<footer class="blockquote-footer">
-					        <p className="card-text text-white">I am a human born in Milan in 1982, Web Developer, Music Producer, Designer, Cook and IT specialist based in Berlin, Germany.</p>
-                  <p className="card-text text-white">
-        Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.</p>
-        <p className="card-text text-white">I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.
-        I have a strong interest in arts and creativity.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.</p>   
+				<p className="card-text text-white">I am a human born in Milan in 1982, always inspired and interested in creativity, science, art and music.</p>
+        <p className="card-text text-white">
+        Web Developer, Music Producer, Designer, Cook.
+        <br />
+        I started from a design university to then immerse myself in a digital and then hardware musical discourse, I am a great fan and connoisseur of modular synthesizers.
+        <br /> 
+        Avid learner, always curious, with a solid international background in customer relations and service, I have specialized in IT and development in the last years.
+        <br />
+        I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct and friendly relationship with people.</p>
+        <p className="card-text text-white">
+        I have participated in so many creative projects ranging from light show to djing to graphic designer.
+        <br />Here I am now to create stuff for the web.</p>   
 				</footer>
 			</blockquote>
       <p className="card-text mb-3"><small className="text-muted">* I have now to bring ideas and the future to you.</small></p> 
 				</div>
 				<div className="col-md-4">
         <blockquote class="blockquote text-muted">
-				<p class="mb-0">
+				<p className="mb-0">
         Languages: 🇮🇹 🇩🇪 🇬🇧
         </p>
         <br/>
@@ -105,7 +112,7 @@ function About() {
         📜 Certified Responsive Web Design and JavaScript Algorithms and Data Structures from <a href='https://www.freecodecamp.org/riccardolimiti' target='_blank' rel="noreferrer">FreeCodeCamp.org.</a>
 				</p>
         <p>
-        📜 Certification of stage and studio sound engineer from <a href='https://www.emitfeltrinelli.it' target='_blank' rel="noreferrer">Emit Feltrinelli</a> (Milano).
+        📜 Certification of stage and studio sound engineer from <a href='https://www.emitfeltrinelli.it' target='_blank' rel="noreferrer">Emit Feltrinelli</a> Milano.
         </p>
 			</blockquote> 
               </div>
