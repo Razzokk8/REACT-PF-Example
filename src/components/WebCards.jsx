@@ -57,12 +57,12 @@ function WebCards() {
                   <div className="box-header">
                     <label className="box-label">
                       <span className="label d-flex align-items-center">
-                      <span className='text-muted ms-1'/>Project Development</span>
+                      <span className='text-muted ms-1'/>App Development</span>
                     </label>
                     <div className="triangle"><span className="shadow" /></div>
                   </div>
                   <div className="box-body">
-                    <div className="title">Marketing Consultations and help in project development.</div>
+                    <div className="title">App consultations and help in project development.</div>
                   </div>
                 </div>
               </div>

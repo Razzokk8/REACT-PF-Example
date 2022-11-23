@@ -44,7 +44,7 @@ function DesignComponent() {
           <h2 className='pb-3 pt-2 text-primary text-end black pe-3 rounded-top'>Sneakers Design</h2>
 
           <div className='d-flex justify-content-center align-items-start sfondo container'>
-          <section className="card me-3 ms-2 mt-2 mb-2">
+{/*           <section className="card me-3 ms-2 mt-2 mb-2">
           <div className="product-image mt-5">
             <img className='mt-3' src={dunkB} alt="OFF-white Red Edition" draggable="false" />
           </div>
@@ -61,7 +61,7 @@ function DesignComponent() {
             <h2 className='text-black'>NikeSB Dunk low pro Reptilian</h2>
             <p className='text-muted'>Realized for #createyourowndunk design contest.</p>
           </div>
-          </section>
+          </section> */}
           </div>
           </div>
 
