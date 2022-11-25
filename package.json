@@ -2,10 +2,7 @@
   "name": "reactpf",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "19.x",
-    "npm": "9.x"
-  },
+
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
