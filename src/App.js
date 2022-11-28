@@ -7,7 +7,7 @@ export default function App() {
     return (
         
         <div>
-        hello
+        Hello There
             {/* <Navbar /> */}
             {/* <MainR /> */}
             
