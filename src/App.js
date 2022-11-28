@@ -8,7 +8,8 @@ export default function App() {
         
         <div>
         Hello Hi
-            
+            <Navbar />
+            <MainR />
             
         </div>
     )
