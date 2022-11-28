@@ -7,9 +7,9 @@ export default function App() {
     return (
         
         <div>
-        
-            <Navbar />
-            <MainR />
+        hello
+            {/* <Navbar /> */}
+            {/* <MainR /> */}
             
         </div>
     )
