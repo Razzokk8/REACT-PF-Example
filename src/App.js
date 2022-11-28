@@ -5,8 +5,9 @@ import  Navbar  from '../src/components/Navbar';
 
 export default function App() {
     return (
+        
         <div>
-        Hello There
+        Hello Hi
             
             
         </div>
