@@ -13,14 +13,14 @@ import WebProjects from '../components/WebProjects'
 function MainR() {
     return (
         <div>
-            <Home />
+            {/* <Home />
             <About />
             <Tech />
              <WebProjects />
              <Design />
              <Music /> 
              <GetInTouch />
-            <Foot /> 
+            <Foot />  */}
         </div>
     )
 }
