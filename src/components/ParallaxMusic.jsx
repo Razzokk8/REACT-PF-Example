@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-// import Player from "./Player";
+import Player from "./Player";
 import bannerMusicPicture from "../assets/Images/darkmodular.jpg";
 // import { Carousel } from "rs-3d-react-carousal";
 import database from "../assets/Images/database.jpg";
@@ -78,7 +78,7 @@ const BannerMusic = () => (
             </blockquote>
             <br />
             <div className="d-flex justify-content-center mt-5 mb-5">
-              {/* <Player /> */}
+              <Player /> 
             </div>
           </div>
           <div className="col-md-4 mb-5">
