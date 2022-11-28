@@ -5,7 +5,7 @@ import Design from '../components/Design'
 import Foot from '../components/Footer'
 import GetInTouch from '../components/GetInTouch'
 import Home from '../components/Home'
-// import Music from '../components/Music'
+import Music from '../components/Music'
 import Tech from '../components/Technologies'
 import WebProjects from '../components/WebProjects'
 
@@ -18,7 +18,7 @@ function MainR() {
             <Tech />
              <WebProjects />
               <Design />
-             {/* <Music />  */}
+             <Music /> 
              <GetInTouch />
             <Foot />
         </div>
