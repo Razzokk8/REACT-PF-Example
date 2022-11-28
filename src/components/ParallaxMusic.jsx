@@ -1,12 +1,12 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import Player from "./Player";
+// import Player from "./Player";
 import bannerMusicPicture from "../assets/Images/darkmodular.jpg";
-import { Carousel } from "rs-3d-react-carousal";
+// import { Carousel } from "rs-3d-react-carousal";
 import database from "../assets/Images/database.jpg";
 import inferno from "../assets/Images/inferno.jpg";
 import speed from "../assets/Images/speed.jpg";
-import MosaicGallery from "./MosaicCovers";
+// import MosaicGallery from "./MosaicCovers";
 
 let slides = [
   <a
