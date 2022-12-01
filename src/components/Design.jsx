@@ -1,6 +1,6 @@
 import React from "react";
 import DesignComponent from "./DesignComponent";
-import DesignImageGallery from "./MusicImageGallery.jsx";
+// import DesignImageGallery from "./MusicImageGallery.jsx";
 
 const galleryImages = [
   {
@@ -59,7 +59,7 @@ function Design() {
         </div>
 
         <div className="col-md-8 mb-5">
-          <DesignImageGallery galleryImages={galleryImages} />
+          {/* <DesignImageGallery galleryImages={galleryImages} /> */}
         </div>
         <DesignComponent />
       </div>
