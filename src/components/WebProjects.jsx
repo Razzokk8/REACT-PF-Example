@@ -1,10 +1,10 @@
 import React from "react";
-// import ParallaxBanner from "./ParallaxBanner";
+import ParallaxBanner from "./ParallaxBanner";
 
 function WebProjects() {
   return (
     <div id="webProjects">
-      {/* <ParallaxBanner /> */}
+      <ParallaxBanner />
     </div>
   );
 }
