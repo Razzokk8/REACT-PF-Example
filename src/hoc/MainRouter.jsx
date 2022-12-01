@@ -7,7 +7,7 @@ import GetInTouch from "../components/GetInTouch";
 import Home from "../components/Home";
 import Music from "../components/Music";
 import Tech from "../components/Technologies";
-// import WebProjects from "../components/WebProjects";
+import WebProjects from "../components/WebProjects";
 
 function MainR() {
   return (
@@ -15,8 +15,8 @@ function MainR() {
       <Home />
       <About />
       <Tech />
-{/*       <WebProjects />
-      <Design /> */}
+       <WebProjects />
+      {/* <Design />  */}
        <Music /> 
       <GetInTouch />
       <Foot />
