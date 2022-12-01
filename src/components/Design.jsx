@@ -26,11 +26,11 @@ const galleryImages = [
 function Design() {
   return (
     <div id="desigN" className="container-fluid d-flex justify-content-center">
-      <div className="row mt-3 mb-4 ms-0 me-2 container-fluid">
+      <div className="row mt-4 mb-4 ms-0 me-2 container-fluid">
+        <div className="col-md-4">
         <h2 className="text-muted text-start">
           <i className="medium material-icons">brush</i>
         </h2>
-        <div className="col-md-4">
           <blockquote className="blockquote" style={{ borderColor: "#00aee0" }}>
             <p className="mb-0">
               <br />

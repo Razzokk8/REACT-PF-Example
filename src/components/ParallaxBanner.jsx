@@ -63,7 +63,7 @@ const Banner = () => (
               </span>
             </h3>
             <div>
-              {/*                 <h5 className='text-primary d-flex align-items-center mb-0 row justify-content-center text-center subTT'>
+              {/* <h5 className='text-primary d-flex align-items-center mb-0 row justify-content-center text-center subTT'>
                 DOUBLE CLICK<br/>THE FOLDER<br/>FOR PROJECTS</h5> */}
               {/* <FolderComponent /> */}
             </div>
