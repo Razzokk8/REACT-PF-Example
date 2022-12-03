@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-// import Player from "./Player";
+import Player from "./Player";
 import bannerMusicPicture from "../assets/Images/darkmodular.jpg";
 // import { Carousel } from "rs-3d-react-carousal";
 import database from "../assets/Images/database.jpg";
@@ -38,7 +38,6 @@ const BannerMusic = () => (
     className="bannerMusic"
     style={{ minHeight: "100vh" }}
     bgImage={bannerMusicPicture}
-    // bgImage="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
     bgImageAlt="the cat"
     opacity={0.9}
     strength={500}
@@ -78,7 +77,7 @@ const BannerMusic = () => (
             </blockquote>
             <br />
             <div className="d-flex justify-content-center mt-5 mb-5">
-              {/* <Player />  */}
+              <Player />
             </div>
           </div>
           <div className="col-md-4 mb-5">
