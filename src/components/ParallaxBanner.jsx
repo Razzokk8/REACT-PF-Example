@@ -2,7 +2,7 @@ import React from "react";
 import { Parallax } from "react-parallax";
 import Typewriter from "typewriter-effect";
 import FolderComponent from "./FolderComponent";
-// import WebCards from "./WebCards";
+import WebCards from "./WebCards";
 import bannerPicture from "../assets/Images/darkwebb.jpg";
 
 const Banner = () => (
@@ -65,7 +65,7 @@ const Banner = () => (
             </div>
           </div>
           <div className="col-md-4">
-            {/* <WebCards /> */}
+            <WebCards /> 
           </div>
         </div>
       </div>
