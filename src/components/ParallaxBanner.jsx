@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import Typewriter from "typewriter-effect";
-// import FolderComponent from "./FolderComponent";
+import FolderComponent from "./FolderComponent";
 // import WebCards from "./WebCards";
 import bannerPicture from "../assets/Images/darkwebb.jpg";
 
@@ -36,8 +36,6 @@ const Banner = () => (
                   double clicking on the folder and clicking on one of three
                   files you could extract.
                 </p>
-                {/*                 <p className="card-text text-white">I come from different experiences in diverse European cities from gastronomy to retail and I am always used to the direct relationship with people.
-                I have a strong interest in arts and creativity.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, ner, always curious, with a solid international background in customer relations and service, I have specialized in consectetur adipiscing elit. Integer posuere erat a ante.</p>  */}
               </footer>
             </blockquote>
             <h3 className="cd-headline rotate-1 mb-5 text-white text-center mt-5 ms-3">
@@ -63,7 +61,7 @@ const Banner = () => (
               </span>
             </h3>
             <div>
-              {/* <FolderComponent /> */}
+              <FolderComponent />
             </div>
           </div>
           <div className="col-md-4">
