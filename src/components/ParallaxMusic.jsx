@@ -6,7 +6,7 @@ import bannerMusicPicture from "../assets/Images/darkmodular.jpg";
 import database from "../assets/Images/database.jpg";
 import inferno from "../assets/Images/inferno.jpg";
 import speed from "../assets/Images/speed.jpg";
-// import MosaicGallery from "./MosaicCovers";
+import MosaicGallery from "./MosaicCovers";
 
 let slides = [
   <a
@@ -81,7 +81,7 @@ const BannerMusic = () => (
             </div>
           </div>
           <div className="col-md-4 mb-5">
-            {/* <MosaicGallery /> */}
+            <MosaicGallery />
 
             {/* <Carousel slides={slides} autoplay={true} interval={4000} /> */}
           </div>
