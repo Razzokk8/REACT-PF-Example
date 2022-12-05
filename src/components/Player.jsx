@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-
 import { styled, Typography, Slider, Paper, Stack, Box } from "@mui/material";
 
 // ------------ ICONS ---------
@@ -72,7 +71,6 @@ const rightsList = [
 
 function Player() {
   const audioPlayer = useRef();
-
   const [index, setIndex] = useState(0);
 
   const [currentSong] = useState(playlist[index]);
@@ -266,7 +264,7 @@ function Player() {
             <Typography sx={{ color: "white" }}>
               {formatTime(elapsed)}
             </Typography>
-            <PSlider thumbless value={elapsed} max={duration} />
+            <PSlider thumbless={'true'} value={elapsed} max={duration} />
             <Typography sx={{ color: "white" }}>
               {formatTime(duration - elapsed)}
             </Typography>
@@ -276,7 +274,7 @@ function Player() {
           </div>
           <div className="d-flex justify-content-center">
             <p>
-              <sm className="text-muted smallInfo">{rightsList[index]}</sm>
+              <small className="text-muted smallInfo">{rightsList[index]}</small>
             </p>
           </div>
         </CustomPaper>

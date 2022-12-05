@@ -7,12 +7,12 @@ window.onscroll = function () {
 
   if (prevScrollPos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
-    console.log("Prev: " + prevScrollPos);
-    console.log("Curr: " + currentScrollPos);
+    // console.log("Prev: " + prevScrollPos);
+    // console.log("Curr: " + currentScrollPos);
   } else {
     document.getElementById("navbar").style.top = "-62px";
-    console.log("Prev: " + prevScrollPos);
-    console.log("Curr: " + currentScrollPos);
+    // console.log("Prev: " + prevScrollPos);
+    // console.log("Curr: " + currentScrollPos);
   }
   prevScrollPos = currentScrollPos;
 };
@@ -30,7 +30,7 @@ function Navbar() {
       </a>
       <ul className="hList d-flex me-4 mb-0">
         <li>
-          <a href="#click" className="menu">
+          <span className="menu">
             <h4 className="menu-title mb-0">who am I</h4>
             <ul className="menu-dropdown">
               <li>
@@ -45,10 +45,10 @@ function Navbar() {
                 </a>
               </li>
             </ul>
-          </a>
+          </span>
         </li>
         <li>
-          <a href="#click" className="menu">
+          <span className="menu">
             <h4 className="menu-title menu-title_2nd mb-0">Works</h4>
             <ul className="menu-dropdown">
               <li>
@@ -67,10 +67,10 @@ function Navbar() {
                 </a>
               </li>
             </ul>
-          </a>
+          </span>
         </li>
         <li>
-          <a href="#click" className="menu">
+          <span className="menu">
             <h4 className="menu-title menu-title_3rd mb-0">contact</h4>
             <ul className="menu-dropdown">
               <li>
@@ -84,7 +84,7 @@ function Navbar() {
                 </a>
               </li>
             </ul>
-          </a>
+          </span>
         </li>
       </ul>
     </div>

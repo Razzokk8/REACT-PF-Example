@@ -79,10 +79,10 @@ function About() {
 		    <div className="col-md-12 container">
 			  <div className="row">
 				<div className="col-md-8 pe-1">
-        <blockquote class="blockquote">
-				<p class="mb-0">
+        <blockquote className="blockquote">
+				<p className="mb-0">
 				</p>
-				<footer class="blockquote-footer">
+				<footer className="blockquote-footer">
 				<p className="card-text text-white">I am a human born in Milan in 1982, always inspired and interested in creativity, science, art and music.</p>
         <p className="card-text text-white">
         Web Developer, Music Producer, Designer, Cook.
@@ -100,7 +100,7 @@ function About() {
       <p className="card-text mb-3"><small className="text-muted">* I have now to bring ideas and the future to you.</small></p> 
 				</div>
 				<div className="col-md-4">
-        <blockquote class="blockquote text-muted">
+        <blockquote className="blockquote text-muted">
 				<p className="mb-0">
         Languages: 🇮🇹 🇩🇪 🇬🇧
         </p>

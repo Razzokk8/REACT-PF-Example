@@ -1,5 +1,4 @@
 import React from "react";
-
 import htmm from "../assets/Logos/html-5-120.png";
 import css from "../assets/Logos/css3-120.png";
 import sas from "../assets/Logos/sass-avatar-120.png";

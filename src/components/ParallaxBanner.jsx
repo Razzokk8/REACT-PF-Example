@@ -22,9 +22,9 @@ const Banner = () => (
             <i className="medium material-icons me-1">language</i>
           </h2>
           <div className="col-md-8 pe-1">
-            <blockquote class="blockquote" style={{ borderColor: "#00aee0" }}>
-              <p class="mb-0"></p>
-              <footer class="blockquote-footer">
+            <blockquote className="blockquote" style={{ borderColor: "#00aee0" }}>
+              <p className="mb-0"></p>
+              <footer className="blockquote-footer">
                 <p className="card-text text-white">
                   As a Web Developer, just started my career being part of the
                   front end team of the Apart.men company from Hamburg tidying

@@ -50,7 +50,7 @@ function GetInTouch() {
                 className="blockquote"
                 style={{ borderColor: "#ff3c5a" }}
               >
-                <p className="mb-0">
+                <div className="mb-0">
                   <address
                     className="text-muted"
                     style={{ textShadow: "1px 1px black" }}
@@ -60,7 +60,7 @@ function GetInTouch() {
                     <br />
                     Germany
                   </address>
-                </p>
+                </div>
               </blockquote>
             </div>
           </div>

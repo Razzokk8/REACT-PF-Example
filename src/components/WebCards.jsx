@@ -8,8 +8,6 @@ function WebCards() {
          <div className="wrapper d-flex justify-content-center pt-0">
         <div className="col justify-content-center p-5 pt-0">
 
-
-
           <div className="col-4 w-100">
             <div className="box card-gradient mb-3">
               <div className="card-inner">
@@ -89,9 +87,6 @@ function WebCards() {
             </div>
         </div>
         <br />
-
-
-
         <div>
         </div>
         </div>

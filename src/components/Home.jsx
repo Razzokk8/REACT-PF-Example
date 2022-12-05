@@ -1,6 +1,5 @@
 import React from "react";
 import Textra from "react-textra";
-
 import wall1 from "../assets/Images/wall1.jpeg";
 // import wall2 from '../assets/Images/wall2.jpeg';
 import wall3 from "../assets/Images/wall3.jpeg";
@@ -12,8 +11,6 @@ import wall9 from "../assets/Images/wall9.png";
 
 function Home() {
   const woolyImages = [wall1, wall3, wall4, wall6, wall8, wall9];
-  // const API_KEY = process.env.REACT_APP_APIKEY;
-
   const randomImage =
     woolyImages[Math.floor(Math.random() * woolyImages.length)];
   console.log(randomImage);
@@ -29,7 +26,7 @@ function Home() {
 
         <div className="card-img-overlay d-flex flex-column justify-content-end m-0 p-0">
           <div className="fadedToB d-flex">
-            <div class="col-md-4 ms-5 me-2 leftC d-flex row justify-content-start mb-5">
+            <div className="col-md-4 ms-5 me-2 leftC d-flex row justify-content-start mb-5">
               <a
                 className="weatherwidget-io"
                 href="https://forecast7.com/en/52d5213d40/berlin/"
@@ -46,7 +43,7 @@ function Home() {
               <br />
               <b className="ps-0 mt-3 text-muted"> {document.lastModified} </b>
             </div>
-            <div class="col-md-8 ms-2 me-4 rightC d-flex row justify-content-start mb-5">
+            <div className="col-md-8 ms-2 me-4 d-flex row justify-content-start mb-5">
               <h1 className="card-title mb-0">
                 Hi! I am <b>Riccardo Limiti,</b>
               </h1>
