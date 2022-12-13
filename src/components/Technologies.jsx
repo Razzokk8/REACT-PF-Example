@@ -1,15 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Icon from './Icon';
-
-
+import Icon from "./Icon";
 
 function Tech() {
-    return (
-
-        <div id='technologies' className='container m-auto w-100'>
-         <Icon />
-        </div>
-    )
+  return (
+    <div id="technologies" className="container m-auto w-100 d-flex align-items-center">
+      <Icon />
+    </div>
+  );
 }
-export default Tech
+export default Tech;
